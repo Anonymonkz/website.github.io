@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(assets/bg.PNG);
+	height: 200vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	padding: 5px;
+	position: absolute;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 10%;
+	left: 55%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 35px;
+}
+
+.paragraph{
+	position: absolute;
+	top: 40%;
+	left: 74%;
+	transform: translate(-45%,-50%);
+	color: #fff;
+	text-align: justify;
+}
+
+.info1{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+}
+
+.info1 h2{
+	position: absolute;
+	text-align: center;
+}
+
+.info2{
+	position: absolute;
+	top: 95%;
+	left: 20%;
+}
+
+.info2 h2{
+	position: absolute;
+	text-align: center;
+}
+
+.info3{
+	position: absolute;
+	top: 150%;
+	left: 20%;
+}
+
+.info3 h2{
+	position: absolute;
+	text-align: center;
+}
+
+.img1 img{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	height: 250px;
+	width: 435px;
+}
+
+.img2 img{
+	position: absolute;
+	top: 95%;
+	left: 60%;
+	height: 250px;
+	width: 435px;
+}
+
+.img3 img{
+	position: absolute;
+	top: 150%;
+	left: 55%;
+	height: 250px;
+	width: 435px;
+}
+
+.profile2 img{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+}
+
+.author{
+	position: absolute;
+	top: 17%;
+	left: 1%;
+}
+
+.author_left{
+	width: 343px;
+	background: #F47906;
+	position: absolute;
+	top: 17%;
+	left: -5%;
+}
+
+.button{
+	position: absolute;
+	text-align: center;
+	text-orientation: sideways;
+	top: 120%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+}

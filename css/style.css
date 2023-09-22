@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+body,header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../logo.PNG);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+ul{
+   position:fixed;
+   top:40%;
+   left:40%;
+   margin-top: -305px; 
+   margin-left: -250px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 1.6s ease;
+	background-color: #23E3F0;
+}
+
+ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.join{
+	position:fixed;
+   top:35%;
+   left:76%;
+   margin-top: -310px; 
+   margin-left: 50px;
+   background-color: #000;
+}
+
+.join a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+.join a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	padding: 5px;
+	position: absolute;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 35px;
+}
+
+.paragraph{
+	position: absolute;
+	top: 40%;
+	left: 74%;
+	transform: translate(-45%,-50%);
+	color: #fff;
+	text-align: justify;
+}
+
+.button{
+	position: absolute;
+	top: 70%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.ethical_hacker img{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	height: 35%;
+	width: 30%;
+}
+
+.codes img{
+	float: left;
+	width: 25%;
+	height: 35%;
+	padding: 20px;
+}
+
+.program img{
+	float: left;
+	width: 25%;
+	height: 35%;
+	padding: 20px;
+}
+
+.profile2 img {
+	float: left;
+	width: 25%;
+	height: 35%;
+	padding: 20px;
+}
+
+.desc1{
+	position: absolute;
+    bottom: -300px;
+	left: 120px;
+	background-color: #000;
+	color: gray;
+}
+
+.desc2{
+	position: absolute;
+    bottom: -300px;
+	left: 430px;
+	background-color: #000;
+	color: #1FF406;
+}
+
+.desc3{
+	position: absolute;
+    bottom: -300px;
+	left: 750px;
+	background-color: #000;
+	color: #F42E06;
+}
+
+.desc4{
+	position: absolute;
+    bottom: -300px;
+	left: 1100px;
+	background-color: #000;
+	color: #82354F;
+}
+
+.info{
+	position: absolute;
+	top: 180%;
+	left: 57%;
+	transform: translate(-100%,-50%);
+}
+
+.logo1 img{
+	width: 25%;
+	height: 35%;
+	padding: 20px;
+}
+
+.about_us {
+	position: absolute;
+	bottom: -150%;
+	left: 50%;
+	transform: translate(-45%,-50%);
+	color:#23A5F0;
+}
